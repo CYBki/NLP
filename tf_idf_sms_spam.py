@@ -44,3 +44,20 @@ df_tfidf_sorted = df_tfidf.sort_values(by='tfidf', ascending=False)
 print(df_tfidf_sorted.head(10))
 #print(df.columns)
 #print(len(feature_names))
+
+'''
+###########################
+output:
+      word     tfidf
+983   call  0.020482
+4967    ok  0.017394
+3380    im  0.017092
+2759   get  0.013850
+3376   ill  0.012664
+7679    ur  0.011644
+1349  come  0.011241
+1951  dont  0.010671
+4155  ltgt  0.010582
+2811    go  0.010128
+###########################
+'''
