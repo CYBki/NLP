@@ -30,3 +30,14 @@ trigram_features = vectorizer_trigram.get_feature_names_out()
 print(f"Unigram Features: {unigram_features}")
 print(f"Bigram Features: {bigram_features}")
 print(f"Trigram Features: {trigram_features}")
+
+
+"""Output:'modeling' 'natural' 'processing' 'sample' 'text' 'this' 'useful']
+Bigram Features: ['are useful' 'document for' 'for gram' 'for text' 'gram modeling'
+ 'grams are' 'is sample' 'language processing' 'love natural'
+ 'natural language' 'sample document' 'text analysis' 'this is'
+ 'useful for']
+Trigram Features: ['are useful for' 'document for gram' 'for gram modeling'
+ 'for text analysis' 'grams are useful' 'is sample document'
+ 'love natural language' 'natural language processing'
+ 'sample document for' 'this is sample' 'useful for text'] """
